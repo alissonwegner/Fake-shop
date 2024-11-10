@@ -25,8 +25,8 @@ jobs:
           push: true
           file: src/Dockerfile
           tags: |
-            debarbozar/fake-shop:latest
-            debarbozar/fake-shop:v${{ github.run_number }}
+            alissonws/fake-shop:latest
+            alissonws/fake-shop:v${{ github.run_number }}
 
   cd-eks:
     runs-on: ubuntu-latest
