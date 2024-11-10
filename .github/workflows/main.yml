@@ -56,3 +56,4 @@ jobs:
             ./k8s/deployment.yaml
           images: |
             debarbozar/fake-shop:v${{ github.run_number }}
+            
