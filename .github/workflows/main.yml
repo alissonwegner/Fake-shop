@@ -18,6 +18,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
 
+          
       -  name: Contrução da Imagem Docker
          uses: docker/build-push-action@v6
          with:
